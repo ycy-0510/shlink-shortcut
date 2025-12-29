@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shlink Shortcut | by YCY</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+    <!-- Hero Section -->
+    <header class="bg-white border-b border-gray-200">
+        <div class="max-w-5xl mx-auto px-6 py-16 text-center">
+            <div class="inline-flex items-center justify-center w-20 h-20 bg-blue-600 text-white rounded-3xl mb-6 shadow-lg">
+                <i class="fa-solid fa-link text-3xl"></i>
+            </div>
+            <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-gray-900 mb-4">
+                Shlink iOS Shortcut
+            </h1>
+            <p class="text-xl text-gray-600 max-w-2xl mx-auto mb-10">
+                Generate self-hosted Shlink short URLs directly from your iPhone with a single tap.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="https://www.icloud.com/shortcuts/55561fefe8924c37ac1d01c3b623e1d8" 
+                   class="inline-flex items-center justify-center px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl transition duration-200 shadow-md">
+                    <i class="fa-brands fa-apple mr-2 text-xl"></i>
+                    Get Shortcut
+                </a>
+                <a href="#setup" class="inline-flex items-center justify-center px-8 py-4 bg-white border border-gray-300 hover:bg-gray-50 text-gray-700 font-semibold rounded-xl transition duration-200">
+                    Setup Guide
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Content Section -->
+    <main class="max-w-4xl mx-auto px-6 py-16">
+        <div id="setup" class="grid md:grid-cols-2 gap-12 items-start">
+            
+            <!-- Instructions -->
+            <div class="space-y-8">
+                <section>
+                    <h2 class="text-2xl font-bold mb-4 flex items-center">
+                        <span class="w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mr-3 text-sm">1</span>
+                        What it does
+                    </h2>
+                    <p class="text-gray-600 leading-relaxed">
+                        This shortcut connects to your self-hosted Shlink instance via API to create short URLs from your clipboard or share sheet instantly.
+                    </p>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold mb-4 flex items-center">
+                        <span class="w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mr-3 text-sm">2</span>
+                        Setup Instructions
+                    </h2>
+                    <p class="text-gray-600 mb-4">When prompted during the first run, please provide:</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-green-500 mt-1 mr-3"></i>
+                            <div>
+                                <strong class="text-gray-800">Endpoint URL:</strong>
+                                <p class="text-sm text-gray-500">The full URL of your Shlink instance (e.g., https://sh.link.com)</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-green-500 mt-1 mr-3"></i>
+                            <div>
+                                <strong class="text-gray-800">API Key:</strong>
+                                <p class="text-sm text-gray-500">Your unique API key generated in the Shlink dashboard.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+            <!-- Reference Card -->
+            <div class="bg-blue-50 p-8 rounded-2xl border border-blue-100">
+                <h3 class="font-bold text-blue-900 mb-4">Quick Reference</h3>
+                <p class="text-blue-800 text-sm mb-6 leading-relaxed">
+                    Need help setting up Shlink? Refer to the official documentation for Docker installation and API management.
+                </p>
+                <a href="https://shlink.io/documentation/install-docker-image/" 
+                   target="_blank"
+                   class="text-blue-600 font-bold flex items-center hover:underline">
+                    Shlink Documentation 
+                    <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-xs"></i>
+                </a>
+                
+                <hr class="my-6 border-blue-200">
+                
+                <div class="flex items-center">
+                    <img src="https://github.com/ycy-0510.png" class="w-10 h-10 rounded-full mr-3 border-2 border-white shadow-sm">
+                    <div>
+                        <p class="text-xs text-blue-700 font-medium">Author</p>
+                        <a href="https://github.com/ycy-0510" class="text-sm font-bold text-blue-900 hover:text-blue-700">ycy-0510</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center py-10 border-t border-gray-100 text-gray-400 text-sm">
+        &copy; 2025 YCY. Released under MIT License.
+    </footer>
+
+</body>
+</html>
